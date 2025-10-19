@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ESP-IDF: Launch",
+            "type": "espidf",
+            "request": "launch",
+            "debugAdapter": "coredump",
+            "workspaceFolder": "${workspaceFolder}",
+            "idfTarget": "esp32p4",
+            "appBinaryPath": "${workspaceFolder}/build/pico_p4_rtsp_camera.elf"
+        }
+    ]
+}

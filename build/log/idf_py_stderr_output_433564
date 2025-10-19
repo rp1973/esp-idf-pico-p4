@@ -1,0 +1,12 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/rpeters/.espressif/python_env/idf6.0_py3.10_env/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=False /home/rpeters/Dokumente/Development/Projects/SDK-IDF/esp-idf-pico-p4
+CMake Error at /home/rpeters/esp/esp-idf/tools/cmake/build.cmake:375 (message):
+  Failed to resolve component 'esp_driver_camera' required by component
+  'camera_driver': unknown name.
+Call Stack (most recent call first):
+  /home/rpeters/esp/esp-idf/tools/cmake/build.cmake:418 (__build_resolve_and_add_req)
+  /home/rpeters/esp/esp-idf/tools/cmake/build.cmake:419 (__build_expand_requirements)
+  /home/rpeters/esp/esp-idf/tools/cmake/build.cmake:748 (__build_expand_requirements)
+  /home/rpeters/esp/esp-idf/tools/cmake/project.cmake:739 (idf_build_process)
+  CMakeLists.txt:5 (project)
+
+

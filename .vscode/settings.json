@@ -1,0 +1,12 @@
+{
+    "idf.espIdfPath": "${env:IDF_PATH}",
+    "idf.pythonBinPath": "${env:PYTHON}",
+    "idf.gitPath": "git",
+    "idf.toolsPath": "${env:HOME}/.espressif",
+    "idf.customExtraPaths": "${env:IDF_PATH}/tools",
+    "idf.version": "6.0",
+    "cmake.sourceDirectory": "${workspaceFolder}",
+    "idf.port": "/dev/ttyACM0",
+    "idf.flashType": "UART",
+    "idf.adapterTarget": "esp32p4"
+}
