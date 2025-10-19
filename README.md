@@ -32,3 +32,5 @@ Each component exposes a dedicated API so that camera acquisition, H.264 encodin
 * The RTSP implementation is a lightweight placeholder that forwards H.264 packets on a TCP socket. Integrate a complete RTSP/RTP stack (e.g. Live555 or GStreamer RTSP server) for production use.
 * Adjust the pin mapping inside `camera_driver_default_config()` to match your OV5647 ribbon wiring.
 * Update Wi-Fi credentials in `connectivity_default_transport_config()` or override them at runtime.
+
+Made with the kindly support of chatty (chatgpt/codex)
